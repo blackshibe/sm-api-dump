@@ -1,4 +1,4 @@
-Scrap mechanic API dump
+# Scrap mechanic API dump
 
 input is api.json, from TechnologicNick#4045's SignatureGenerator.lua
 

@@ -1,0 +1,5694 @@
+
+{
+	"ai" : 
+	{
+		"getClosestVisibleCrop" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Unit" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getClosestVisiblePlayerCharacter" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Unit" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getRandomCreationPosition" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		}
+	},
+	"areaTrigger" : 
+	{
+		"destroy" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: AreaTrigger" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"filter" : null
+	},
+	"audio" : 
+	{
+		"soundList" : null
+	},
+	"body" : 
+	{
+		"getAllBodies" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		},
+		"getAngularVelocity" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getCenterOfMassPosition" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getCreationBodies" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getCreationId" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getCreationShapes" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getCreationsFromBodies" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "table" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "table"
+				}
+			]
+		},
+		"getId" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getMass" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getShapes" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getVelocity" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getWorldPosition" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getWorldRotation" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"isBuildable" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"isConnectable" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"isConvertibleToDynamic" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"isDestructable" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"isDynamic" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"isErasable" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"isLiftable" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"isOnLift" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"isPaintable" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"isStatic" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"isUsable" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Body" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		}
+	},
+	"camera" : 
+	{
+		"state" : null
+	},
+	"cell" : null,
+	"challenge" : 
+	{
+		"getCompletionTime" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Uuid>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "number"
+				}
+			]
+		},
+		"getSaveData" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Uuid>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"hasStarted" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		},
+		"resolveContentPath" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "string" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "string"
+				}
+			]
+		}
+	},
+	"character" : null,
+	"color" : 
+	{
+		"getA" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Color>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "number"
+				}
+			]
+		},
+		"getB" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Color>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "number"
+				}
+			]
+		},
+		"getG" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Color>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "number"
+				}
+			]
+		},
+		"getR" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Color>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "number"
+				}
+			]
+		}
+	},
+	"construction" : 
+	{
+		"constants" : null
+	},
+	"container" : 
+	{
+		"abortTransaction" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		},
+		"beginTransaction" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		},
+		"endTransaction" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		},
+		"getFirstItem" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Container" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getId" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Container" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getMaxStackSize" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Container" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getSize" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Container" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"isEmpty" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Container" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"itemUuid" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Container" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"quantity" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Container" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		}
+	},
+	"creation" : null,
+	"debugDraw" : 
+	{
+		"removeArrow" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "string" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"removeSphere" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "string" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		}
+	},
+	"effect" : null,
+	"event" : null,
+	"exists" : 
+	{
+		"params" : 
+		[
+			
+			{
+				"type" : [ "<Vec3>", "<Color>", "<Uuid>", "<Quat>" ]
+			}
+		],
+		"paramsExact" : 1.0,
+		"paramsMax" : 1.0,
+		"paramsMin" : 1.0,
+		"returns" : 
+		[
+			
+			{
+				"type" : "boolean"
+			}
+		]
+	},
+	"game" : 
+	{
+		"getCurrentTick" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		},
+		"getEnableAmmoConsumption" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		},
+		"getEnableFuelConsumption" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		},
+		"getEnableUpgradeCost" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		},
+		"getLimitedInventory" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		},
+		"getServerTick" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		},
+		"getTimeOfDay" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		}
+	},
+	"gui" : 
+	{
+		"chatMessage" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "string" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"createWidget" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				}
+			],
+			"paramsMax" : 12.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		},
+		"interface" : null,
+		"widget" : 
+		{
+			"bindOnClick" : 
+			{
+				"params" : 
+				[
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					}
+				],
+				"paramsMax" : 12.0,
+				"paramsMin" : 0.0,
+				"returns" : null
+			},
+			"destroy" : 
+			{
+				"params" : 
+				[
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					}
+				],
+				"paramsMax" : 12.0,
+				"paramsMin" : 0.0,
+				"returns" : null
+			},
+			"find" : 
+			{
+				"params" : 
+				[
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					}
+				],
+				"paramsMax" : 12.0,
+				"paramsMin" : 0.0,
+				"returns" : null
+			},
+			"getId" : 
+			{
+				"params" : 
+				[
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					}
+				],
+				"paramsMax" : 12.0,
+				"paramsMin" : 0.0,
+				"returns" : null
+			},
+			"getName" : 
+			{
+				"params" : 
+				[
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					}
+				],
+				"paramsMax" : 12.0,
+				"paramsMin" : 0.0,
+				"returns" : null
+			},
+			"getPosition" : 
+			{
+				"params" : 
+				[
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					}
+				],
+				"paramsMax" : 12.0,
+				"paramsMin" : 0.0,
+				"returns" : null
+			},
+			"getSize" : 
+			{
+				"params" : 
+				[
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					}
+				],
+				"paramsMax" : 12.0,
+				"paramsMin" : 0.0,
+				"returns" : null
+			},
+			"getText" : 
+			{
+				"params" : 
+				[
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					}
+				],
+				"paramsMax" : 12.0,
+				"paramsMin" : 0.0,
+				"returns" : null
+			},
+			"getTypeName" : 
+			{
+				"params" : 
+				[
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					}
+				],
+				"paramsMax" : 12.0,
+				"paramsMin" : 0.0,
+				"returns" : null
+			},
+			"getVisible" : 
+			{
+				"params" : 
+				[
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					}
+				],
+				"paramsMax" : 12.0,
+				"paramsMin" : 0.0,
+				"returns" : null
+			},
+			"setPosition" : 
+			{
+				"params" : 
+				[
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					}
+				],
+				"paramsMax" : 12.0,
+				"paramsMin" : 0.0,
+				"returns" : null
+			},
+			"setSize" : 
+			{
+				"params" : 
+				[
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					}
+				],
+				"paramsMax" : 12.0,
+				"paramsMin" : 0.0,
+				"returns" : null
+			},
+			"setText" : 
+			{
+				"params" : 
+				[
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					}
+				],
+				"paramsMax" : 12.0,
+				"paramsMin" : 0.0,
+				"returns" : null
+			},
+			"setVisible" : 
+			{
+				"params" : 
+				[
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					},
+					
+					{
+						"type" : 
+						[
+							"<Vec3>",
+							"table",
+							"number",
+							"boolean",
+							"string",
+							"<Color>",
+							"<Uuid>",
+							"<Quat>"
+						]
+					}
+				],
+				"paramsMax" : 12.0,
+				"paramsMin" : 0.0,
+				"returns" : null
+			}
+		}
+	},
+	"harvestable" : 
+	{
+		"destroy" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Harvestable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getColor" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Harvestable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getId" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Harvestable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getMaterial" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Harvestable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getMaterialId" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Harvestable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getName" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Harvestable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getPosition" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Harvestable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getRotation" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Harvestable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getType" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Harvestable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		}
+	},
+	"interactable" : 
+	{
+		"actions" : null,
+		"connectionType" : null,
+		"getBearings" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Interactable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getBody" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Interactable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getColorHighlight" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Interactable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getColorNormal" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Interactable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getConnectionInputType" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Interactable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getConnectionOutputType" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Interactable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getId" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Interactable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getJoints" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Interactable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getMaxChildCount" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Interactable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getMaxParentCount" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Interactable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getPistons" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Interactable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getPower" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Interactable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getPublicData" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Interactable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getShape" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Interactable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getSingleParent" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Interactable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getType" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Interactable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"isActive" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Interactable" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"steering" : null,
+		"types" : null
+	},
+	"isServerMode" : 
+	{
+		"params" : null,
+		"paramsExact" : 0.0,
+		"paramsMax" : 0.0,
+		"paramsMin" : 0.0,
+		"returns" : null
+	},
+	"item" : 
+	{
+		"getCharacterShape" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Uuid>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getEdible" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Uuid>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getInteractablesUuidsOfType" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "string" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "table"
+				}
+			]
+		},
+		"getPlantable" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Uuid>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getPlantableUuids" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		},
+		"getQualityLevel" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Uuid>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "number"
+				}
+			]
+		},
+		"getShapeDefaultColor" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Uuid>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "Color"
+				}
+			]
+		},
+		"getShapeOffset" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Uuid>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "Vec3"
+				}
+			]
+		},
+		"getShapeSize" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Uuid" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"isBlock" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Uuid>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "boolean"
+				}
+			]
+		},
+		"isJoint" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Uuid>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "boolean"
+				}
+			]
+		},
+		"isPart" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Uuid>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "boolean"
+				}
+			]
+		},
+		"isTool" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Uuid>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "boolean"
+				}
+			]
+		},
+		"myFunction" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "string" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "boolean"
+				}
+			]
+		}
+	},
+	"joint" : 
+	{
+		"getAngle" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Joint" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getAngularVelocity" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Joint" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getAppliedImpulse" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Joint" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getColor" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Joint" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getId" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Joint" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getLength" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Joint" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getShapeA" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Joint" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getShapeB" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Joint" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getType" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Joint" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"isReversed" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Joint" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"types" : null
+	},
+	"json" : 
+	{
+		"open" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: string" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"parseJsonString" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: string" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"writeJsonString" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "string"
+				}
+			]
+		}
+	},
+	"lift" : null,
+	"localPlayer" : null,
+	"log" : 
+	{
+		"error" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "string" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"info" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "string" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"warning" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "string" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		}
+	},
+	"melee" : null,
+	"network" : null,
+	"noise" : 
+	{
+		"simplexNoise1d" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "number" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "number"
+				}
+			]
+		}
+	},
+	"particle" : null,
+	"pathNode" : null,
+	"pathfinder" : 
+	{
+		"conditionProperty" : null
+	},
+	"physics" : 
+	{
+		"filter" : null,
+		"getGravity" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		},
+		"getGroundMaterial" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Vec3>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "string"
+				}
+			]
+		},
+		"setGravity" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "number" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"types" : null
+	},
+	"player" : 
+	{
+		"getAllPlayers" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		},
+		"removeLift" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Player" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		}
+	},
+	"portal" : 
+	{
+		"createPortal" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Vec3>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "Portal"
+				}
+			]
+		},
+		"destroy" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Portal" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"popWorldPortalHook" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "string" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		}
+	},
+	"projectile" : 
+	{
+		"getProjectileMass" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "string" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "number"
+				}
+			]
+		}
+	},
+	"quat" : 
+	{
+		"getW" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Quat>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "number"
+				}
+			]
+		},
+		"getX" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Quat>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "number"
+				}
+			]
+		},
+		"getY" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Quat>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "number"
+				}
+			]
+		},
+		"getZ" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Quat>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "number"
+				}
+			]
+		},
+		"identity" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				}
+			],
+			"paramsMax" : 12.0,
+			"paramsMin" : 0.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "Quat"
+				}
+			]
+		},
+		"round90" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Quat>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "Quat"
+				}
+			]
+		}
+	},
+	"raycastResult" : null,
+	"render" : null,
+	"shape" : 
+	{
+		"getAt" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getBody" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getBoundingBox" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getBuoyancy" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getColor" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getId" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getInteractable" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getIsHarvest" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Uuid>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "boolean"
+				}
+			]
+		},
+		"getIsStackable" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Uuid>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "boolean"
+				}
+			]
+		},
+		"getLocalPosition" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getMass" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getMaterial" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getMaterialId" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getNeighbours" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getPipedNeighbours" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getRight" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getShapeDescription" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Uuid>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "string"
+				}
+			]
+		},
+		"getShapeIcon" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Uuid>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getShapeTitle" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Uuid>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "string"
+				}
+			]
+		},
+		"getShapeTypeColor" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Uuid>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "Color"
+				}
+			]
+		},
+		"getShapeUuid" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getUp" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getVelocity" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getWorldPosition" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getWorldRotation" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getXAxis" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getYAxis" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"getZAxis" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"shapeExists" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: Shape" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		}
+	},
+	"storage" : 
+	{
+		"load" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		}
+	},
+	"tool" : 
+	{
+		"interactState" : null
+	},
+	"unit" : 
+	{
+		"getAllUnits" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		}
+	},
+	"util" : null,
+	"uuid" : 
+	{
+		"getNil" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		}
+	},
+	"vec3" : 
+	{
+		"closestAxis" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Vec3>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "Vec3"
+				}
+			]
+		},
+		"getX" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Vec3>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "number"
+				}
+			]
+		},
+		"getY" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Vec3>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "number"
+				}
+			]
+		},
+		"getZ" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Vec3>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "number"
+				}
+			]
+		},
+		"length" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Vec3>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "number"
+				}
+			]
+		},
+		"length2" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Vec3>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "number"
+				}
+			]
+		},
+		"normalize" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "<Vec3>" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "Vec3"
+				}
+			]
+		},
+		"one" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		},
+		"zero" : 
+		{
+			"params" : null,
+			"paramsExact" : 0.0,
+			"paramsMax" : 0.0,
+			"paramsMin" : 0.0,
+			"returns" : null
+		}
+	},
+	"visualization" : null,
+	"world" : 
+	{
+		"getCurrentWorld" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				},
+				
+				{
+					"type" : 
+					[
+						"<Vec3>",
+						"table",
+						"number",
+						"boolean",
+						"string",
+						"<Color>",
+						"<Uuid>",
+						"<Quat>"
+					]
+				}
+			],
+			"paramsMax" : 12.0,
+			"paramsMin" : 0.0,
+			"returns" : 
+			[
+				
+				{
+					"type" : "World"
+				}
+			]
+		},
+		"getId" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: World" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		},
+		"isIndoor" : 
+		{
+			"params" : 
+			[
+				
+				{
+					"type" : [ "unknown: World" ]
+				}
+			],
+			"paramsExact" : 1.0,
+			"paramsMax" : 1.0,
+			"paramsMin" : 1.0,
+			"returns" : null
+		}
+	}
+}

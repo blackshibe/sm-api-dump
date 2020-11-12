@@ -1,5 +1,13 @@
--- no params, returns void
-sm.isServerMode()
+MyShape = class()
 
--- 1 param, returns void
-sm.vec3.closestAxis()
+function MyShape:server_onCreate() 
+
+end
+function MyShape.client_onFixedUpdate(self, deltaTime) 
+
+end
+
+-- ShapeClass events
+function MyShape:client_onInteract() 
+
+end
